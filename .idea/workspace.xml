@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da6fc865-eaf6-4cdd-a21e-30f52df1122d" name="Default Changelist" comment="" />
+    <list default="true" id="da6fc865-eaf6-4cdd-a21e-30f52df1122d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AllPossibleSubSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllPossibleSubSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FooProblem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FooProblemTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Knapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Knapsack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sedin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sedin.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/LearnJava$Java.ic" NAME="Java Coverage Results" MODIFIED="1563118772773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -22,18 +36,46 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/AllPossibleSubSet.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Knapsack.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/isSumTree.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Trie.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/JumpingFrog.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Sedin.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
   <component name="ProjectId" id="1aTv9XXTwUaWMWEFnheraN3cKy4" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="NEW_TOOLWINDOW_STRIPE_DEFAULTS" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583607837340" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="TEXT" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -52,16 +94,27 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConnectNodesAtSameLevel">
-    <configuration name="Binary_Tree_Traversals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Binary_Tree_Traversals" />
+  <component name="RunManager" selected="Application.Sedin">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CoinChange" />
       <module name="LearnJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConnectNodesAtSameLevel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConnectNodesAtSameLevel" />
+    <configuration name="CountIntegersInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountIntegersInString" />
       <module name="LearnJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,8 +127,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HistogramAreaProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HistogramAreaProblem" />
+    <configuration name="JumpingFrog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JumpingFrog" />
       <module name="LearnJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,8 +141,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Maximumofminimumwindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Maximumofminimumwindow" />
+    <configuration name="LongTrip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongTrip" />
       <module name="LearnJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,17 +155,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StarSearchMain" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StarSearchMain" />
+    <configuration name="Sedin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sedin" />
       <module name="LearnJava" />
-      <option name="PROGRAM_PARAMETERS" value="C:\Users\amadhuba\Downloads\test_scenarios\test_scenarios\scenario7.csv -v" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="check_two_expressions_brackets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="check_two_expressions_brackets" />
+    <configuration name="StarSearchMain" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StarSearchMain" />
       <module name="LearnJava" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\amadhuba\Downloads\test_scenarios\test_scenarios\scenario7.csv -v" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,22 +183,23 @@
       <item itemvalue="Application.StarSearchMain" />
       <item itemvalue="Application.kth_smallest_row_wise_column_wise" />
       <item itemvalue="Application.FooProblem" />
-      <item itemvalue="Application.HistogramAreaProblem" />
-      <item itemvalue="Application.check_two_expressions_brackets" />
-      <item itemvalue="Application.Maximumofminimumwindow" />
-      <item itemvalue="Application.Binary_Tree_Traversals" />
-      <item itemvalue="Application.ConnectNodesAtSameLevel" />
+      <item itemvalue="Application.JumpingFrog" />
+      <item itemvalue="Application.Sedin" />
+      <item itemvalue="Application.CountIntegersInString" />
+      <item itemvalue="Application.LongTrip" />
+      <item itemvalue="Application.CoinChange" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConnectNodesAtSameLevel" />
-        <item itemvalue="Application.Binary_Tree_Traversals" />
-        <item itemvalue="Application.Maximumofminimumwindow" />
-        <item itemvalue="Application.check_two_expressions_brackets" />
-        <item itemvalue="Application.HistogramAreaProblem" />
+        <item itemvalue="Application.Sedin" />
+        <item itemvalue="Application.CoinChange" />
+        <item itemvalue="Application.LongTrip" />
+        <item itemvalue="Application.CountIntegersInString" />
+        <item itemvalue="Application.JumpingFrog" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -156,6 +210,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552900103839</updated>
+      <workItem from="1621172695837" duration="974000" />
+      <workItem from="1629860331190" duration="435000" />
+      <workItem from="1629907452504" duration="759000" />
+      <workItem from="1630253796631" duration="2961000" />
+      <workItem from="1630292056565" duration="14985000" />
+      <workItem from="1630390729699" duration="16000" />
+      <workItem from="1630423236073" duration="4001000" />
+      <workItem from="1630502456121" duration="9087000" />
+      <workItem from="1630551275651" duration="3748000" />
+      <workItem from="1630688657388" duration="38007000" />
+      <workItem from="1631550275047" duration="1393000" />
+      <workItem from="1631880642025" duration="621000" />
+      <workItem from="1632073166161" duration="588000" />
+      <workItem from="1632316963969" duration="67000" />
+      <workItem from="1632380710471" duration="1862000" />
+      <workItem from="1632400961681" duration="2518000" />
+      <workItem from="1632726734538" duration="61000" />
+      <workItem from="1635174088000" duration="1187000" />
+      <workItem from="1635492362395" duration="1288000" />
     </task>
     <servers />
   </component>
@@ -168,79 +241,8 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="WindowStateProjectService">
-    <state x="137" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594086267291">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="137" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1594086267291" />
-    <state x="412" y="169" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1594086262431">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="412" y="169" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.768@0.0.1366.768" timestamp="1594086262431" />
-    <state x="531" y="273" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586772335689">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="531" y="273" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.768@0.0.1366.768" timestamp="1586772335689" />
-    <state x="735" y="144" key="#xdebugger.evaluate" timestamp="1595146467995">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="735" y="144" key="#xdebugger.evaluate/0.0.1366.768@0.0.1366.768" timestamp="1595146467995" />
-    <state width="423" height="438" key="DebuggerActiveHint" timestamp="1595058680326">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="423" height="438" key="DebuggerActiveHint/0.0.1366.768@0.0.1366.768" timestamp="1595058680326" />
-    <state width="1323" height="202" key="GridCell.Tab.0.bottom" timestamp="1595146416143">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="202" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1595146416143" />
-    <state width="1323" height="202" key="GridCell.Tab.0.center" timestamp="1595146416143">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="202" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1595146416143" />
-    <state width="1323" height="202" key="GridCell.Tab.0.left" timestamp="1595146416143">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="202" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1595146416143" />
-    <state width="1323" height="202" key="GridCell.Tab.0.right" timestamp="1595146416143">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="202" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1595146416143" />
-    <state width="1323" height="202" key="GridCell.Tab.1.bottom" timestamp="1595146416727">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="202" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1595146416727" />
-    <state width="1323" height="202" key="GridCell.Tab.1.center" timestamp="1595146416727">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="202" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1595146416727" />
-    <state width="1323" height="202" key="GridCell.Tab.1.left" timestamp="1595146416727">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="202" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1595146416727" />
-    <state width="1323" height="202" key="GridCell.Tab.1.right" timestamp="1595146416727">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="202" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1595146416727" />
-    <state x="387" y="278" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1586850991446">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="387" y="278" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.768@0.0.1366.768" timestamp="1586850991446" />
-    <state x="454" y="87" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586850966234">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="454" y="87" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.768@0.0.1366.768" timestamp="1586850966234" />
-    <state x="389" y="126" width="587" height="516" key="find.popup" timestamp="1595042348969">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="389" y="126" width="587" height="516" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1595042348969" />
-    <state x="339" y="172" key="run.anything.popup" timestamp="1595042220656">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="339" y="172" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1595042220656" />
-    <state x="339" y="36" width="670" height="676" key="search.everywhere.popup" timestamp="1586774344497">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="339" y="36" width="670" height="676" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1586774344497" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -379,16 +381,6 @@
           <url>file://$PROJECT_DIR$/src/Insert_node_in_middle_linkedlist.java</url>
           <line>15</line>
           <option name="timeStamp" value="104" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Trie.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="113" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Trie.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="114" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/check_two_expressions_brackets.java</url>
