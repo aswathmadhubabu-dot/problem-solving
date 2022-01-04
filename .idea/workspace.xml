@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da6fc865-eaf6-4cdd-a21e-30f52df1122d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AllPossibleSubSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllPossibleSubSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FooProblem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FooProblemTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Knapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Knapsack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sedin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sedin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array_rotation_smallest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array_rotation_smallest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +41,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/AllPossibleSubSet.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Knapsack.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/isSumTree.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Trie.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/JumpingFrog.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Sedin.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/JumpingFrog.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/isSumTree.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Knapsack.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Trie.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -94,7 +86,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Sedin">
+  <component name="RunManager" selected="Application.smallestpivotinrotatedarray">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -106,15 +98,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CoinChange" />
+    <configuration name="AllPossibleSubSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AllPossibleSubSet" />
       <module name="LearnJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountIntegersInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CountIntegersInString" />
+    <configuration name="Array_rotation_smallest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array_rotation_smallest" />
+      <module name="LearnJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CoinChange" />
       <module name="LearnJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,22 +126,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JumpingFrog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JumpingFrog" />
-      <module name="LearnJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Knapsack" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Knapsack" />
-      <module name="LearnJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongTrip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LongTrip" />
       <module name="LearnJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,25 +162,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="smallestpivotinrotatedarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="smallestpivotinrotatedarray" />
+      <module name="LearnJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Knapsack" />
       <item itemvalue="Application.NQueensProblem" />
       <item itemvalue="Application.StarSearchMain" />
       <item itemvalue="Application.kth_smallest_row_wise_column_wise" />
       <item itemvalue="Application.FooProblem" />
-      <item itemvalue="Application.JumpingFrog" />
       <item itemvalue="Application.Sedin" />
-      <item itemvalue="Application.CountIntegersInString" />
-      <item itemvalue="Application.LongTrip" />
       <item itemvalue="Application.CoinChange" />
+      <item itemvalue="Application.AllPossibleSubSet" />
+      <item itemvalue="Application.Array_rotation_smallest" />
+      <item itemvalue="Application.smallestpivotinrotatedarray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.smallestpivotinrotatedarray" />
+        <item itemvalue="Application.Array_rotation_smallest" />
+        <item itemvalue="Application.AllPossibleSubSet" />
         <item itemvalue="Application.Sedin" />
         <item itemvalue="Application.CoinChange" />
-        <item itemvalue="Application.LongTrip" />
-        <item itemvalue="Application.CountIntegersInString" />
-        <item itemvalue="Application.JumpingFrog" />
       </list>
     </recent_temporary>
   </component>
@@ -229,6 +221,7 @@
       <workItem from="1632726734538" duration="61000" />
       <workItem from="1635174088000" duration="1187000" />
       <workItem from="1635492362395" duration="1288000" />
+      <workItem from="1641304186151" duration="3473000" />
     </task>
     <servers />
   </component>
@@ -436,6 +429,16 @@
           <url>file://$PROJECT_DIR$/src/ConnectNodesAtSameLevel.java</url>
           <line>43</line>
           <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Array_rotation_smallest.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Array_rotation_smallest.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="142" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
