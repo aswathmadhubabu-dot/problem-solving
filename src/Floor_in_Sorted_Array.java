@@ -1,51 +1,32 @@
-import java.util.List;
 import java.util.Scanner;
 
 public class Floor_in_Sorted_Array {
 
-    private static void getmin(int[] arr, int x, int low, int high) {
-        if (arr.length == 0) {
-            return;
-        }
+    private static int floorInSortedArray(int[] arr, int x, int low, int high) {
+        if (low > high)
+            return -1;
+
+        if (x >= arr[high])
+            return arr[high];
+
         int mid = (low + high) / 2;
-        if (low == high) {
-            if (low == arr.length - 1) {
-                System.out.println(low);
-            } else {
-                System.out.println(low - 1);
-            }
-            return;
+
+        if (arr[mid] == x)
+            return arr[mid];
+
+        if (mid > 0 && arr[mid - 1] <= x && arr[mid] > x) {
+            return arr[mid - 1];
         }
-        if (arr[mid] == x) {
-            System.out.println(mid);
-            return;
-        }
-        if (arr[mid] <= x) {
-            getmin(arr, x, mid + 1, high);
-        }
-        if (x <= arr[mid]) {
-            getmin(arr, x, low, mid);
-        }
+
+        if (x < arr[mid])
+            return floorInSortedArray(arr, x, low, mid - 1);
+
+        return floorInSortedArray(arr, x, mid + 1, high);
     }
 
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int T = in.nextInt();
-
-        while (T > 0) {
-            int number = in.nextInt();
-            int x = in.nextInt();
-            int[] array = new int[number];
-            for (int i = 0; i < number; i++) {
-                array[i] = in.nextInt();
-            }
-
-            int low = 0;
-            int high = array.length - 1;
-            getmin(array, x, low, high);
-
-            T--;
-        }
+        int[] arr = {1, 2, 4, 6, 10, 12, 14};
+        System.out.println(floorInSortedArray(arr, 5, 0, arr.length - 1));
     }
 
 }

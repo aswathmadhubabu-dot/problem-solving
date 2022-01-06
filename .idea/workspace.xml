@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="da6fc865-eaf6-4cdd-a21e-30f52df1122d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array_rotation_smallest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array_rotation_smallest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BitCoins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BitCoins.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Floor_in_Sorted_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Floor_in_Sorted_Array.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,17 +41,18 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/AllPossibleSubSet.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Sedin.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/JumpingFrog.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/isSumTree.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Knapsack.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Sedin.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/isSumTree.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Trie.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/AllPossibleSubSet.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="1aTv9XXTwUaWMWEFnheraN3cKy4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -86,7 +88,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.smallestpivotinrotatedarray">
+  <component name="RunManager" selected="Application.Floor_in_Sorted_Array">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -105,6 +107,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArrayRotationFindingAnElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayRotationFindingAnElement" />
+      <module name="LearnJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Array_rotation_smallest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array_rotation_smallest" />
       <module name="LearnJava" />
@@ -112,8 +121,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CoinChange" />
+    <configuration name="Floor_in_Sorted_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Floor_in_Sorted_Array" />
       <module name="LearnJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,13 +144,6 @@
     </configuration>
     <configuration name="NQueensProblem" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NQueensProblem" />
-      <module name="LearnJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sedin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sedin" />
       <module name="LearnJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -175,19 +177,19 @@
       <item itemvalue="Application.StarSearchMain" />
       <item itemvalue="Application.kth_smallest_row_wise_column_wise" />
       <item itemvalue="Application.FooProblem" />
-      <item itemvalue="Application.Sedin" />
-      <item itemvalue="Application.CoinChange" />
       <item itemvalue="Application.AllPossibleSubSet" />
       <item itemvalue="Application.Array_rotation_smallest" />
       <item itemvalue="Application.smallestpivotinrotatedarray" />
+      <item itemvalue="Application.ArrayRotationFindingAnElement" />
+      <item itemvalue="Application.Floor_in_Sorted_Array" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Floor_in_Sorted_Array" />
+        <item itemvalue="Application.ArrayRotationFindingAnElement" />
         <item itemvalue="Application.smallestpivotinrotatedarray" />
         <item itemvalue="Application.Array_rotation_smallest" />
         <item itemvalue="Application.AllPossibleSubSet" />
-        <item itemvalue="Application.Sedin" />
-        <item itemvalue="Application.CoinChange" />
       </list>
     </recent_temporary>
   </component>
@@ -222,6 +224,7 @@
       <workItem from="1635174088000" duration="1187000" />
       <workItem from="1635492362395" duration="1288000" />
       <workItem from="1641304186151" duration="3473000" />
+      <workItem from="1641310540840" duration="6600000" />
     </task>
     <servers />
   </component>
@@ -236,6 +239,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
