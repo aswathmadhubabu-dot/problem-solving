@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="da6fc865-eaf6-4cdd-a21e-30f52df1122d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BitCoins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BitCoins.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Floor_in_Sorted_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Floor_in_Sorted_Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/findandremoveloopLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/findandremoveloopLL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +40,12 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Sedin.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/JumpingFrog.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Knapsack.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Sedin.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/isSumTree.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Trie.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/AllPossibleSubSet.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Trie.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -75,6 +74,7 @@
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -88,7 +88,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Floor_in_Sorted_Array">
+  <component name="RunManager" selected="Application.findAndRemoveLoopInLinkedList">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -100,22 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AllPossibleSubSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AllPossibleSubSet" />
-      <module name="LearnJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ArrayRotationFindingAnElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayRotationFindingAnElement" />
-      <module name="LearnJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Array_rotation_smallest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array_rotation_smallest" />
       <module name="LearnJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,6 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaxDistanceToClosestPerson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaxDistanceToClosestPerson" />
+      <module name="LearnJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NQueensProblem" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NQueensProblem" />
       <module name="LearnJava" />
@@ -153,6 +146,13 @@
       <option name="MAIN_CLASS_NAME" value="StarSearchMain" />
       <module name="LearnJava" />
       <option name="PROGRAM_PARAMETERS" value="C:\Users\amadhuba\Downloads\test_scenarios\test_scenarios\scenario7.csv -v" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="findAndRemoveLoopInLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="findAndRemoveLoopInLinkedList" />
+      <module name="LearnJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -177,19 +177,19 @@
       <item itemvalue="Application.StarSearchMain" />
       <item itemvalue="Application.kth_smallest_row_wise_column_wise" />
       <item itemvalue="Application.FooProblem" />
-      <item itemvalue="Application.AllPossibleSubSet" />
-      <item itemvalue="Application.Array_rotation_smallest" />
       <item itemvalue="Application.smallestpivotinrotatedarray" />
       <item itemvalue="Application.ArrayRotationFindingAnElement" />
       <item itemvalue="Application.Floor_in_Sorted_Array" />
+      <item itemvalue="Application.MaxDistanceToClosestPerson" />
+      <item itemvalue="Application.findAndRemoveLoopInLinkedList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.findAndRemoveLoopInLinkedList" />
+        <item itemvalue="Application.MaxDistanceToClosestPerson" />
         <item itemvalue="Application.Floor_in_Sorted_Array" />
         <item itemvalue="Application.ArrayRotationFindingAnElement" />
         <item itemvalue="Application.smallestpivotinrotatedarray" />
-        <item itemvalue="Application.Array_rotation_smallest" />
-        <item itemvalue="Application.AllPossibleSubSet" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +224,9 @@
       <workItem from="1635174088000" duration="1187000" />
       <workItem from="1635492362395" duration="1288000" />
       <workItem from="1641304186151" duration="3473000" />
-      <workItem from="1641310540840" duration="6600000" />
+      <workItem from="1641310540840" duration="10693000" />
+      <workItem from="1642319454580" duration="4320000" />
+      <workItem from="1643029334619" duration="2662000" />
     </task>
     <servers />
   </component>
@@ -400,21 +402,6 @@
           <url>file://$PROJECT_DIR$/src/SerializeandDeserializeBinaryTree.java</url>
           <line>43</line>
           <option name="timeStamp" value="120" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/findandremoveloopLL.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="126" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/findandremoveloopLL.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="127" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/findandremoveloopLL.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="128" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/flatteningLL.java</url>
