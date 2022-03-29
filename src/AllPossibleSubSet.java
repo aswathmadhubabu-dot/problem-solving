@@ -2,7 +2,7 @@ import static java.lang.Math.pow;
 
 public class AllPossibleSubSet {
     public static void main(String[] args) {
-        int[] a = {5, 1, 2, 7, 6};
+        int[] a = {1, 2, 3};
         int i = 0;
         while (i < pow(2, a.length)) {
             for (int j = 0; j < a.length; j++)

@@ -98,7 +98,7 @@ public class Binary_Tree_Traversals {
         }
     }
 
-    private void updatspiralemap(Node root, int level, HashMap<Integer, Deque<Integer>> map) {
+    private void updateSpiralMap(Node root, int level, HashMap<Integer, Deque<Integer>> map) {
         if (root == null) return;
         if (!map.containsKey(level)) {
             map.put(level, new ArrayDeque<>());
@@ -109,33 +109,33 @@ public class Binary_Tree_Traversals {
             map.get(level).addFirst(root.data);
         }
 
-        updatspiralemap(root.left, level +1, map);
-        updatspiralemap(root.right, level +1, map);
+        updateSpiralMap(root.left, level +1, map);
+        updateSpiralMap(root.right, level +1, map);
     }
 
-    private void spiralorder(Node root) {
+    private void spiralOrder(Node root) {
         HashMap<Integer, Deque<Integer>> map = new HashMap<>();
-        updatspiralemap(root, 1, map);
+        updateSpiralMap(root, 1, map);
         for(int i = 1; i<= map.size(); i++){
             System.out.printf("Level :%d %s%n", i, map.get(i).toString());
         }
     }
 
-    private void updateverticalmap(Node root, int dist, TreeMap<Integer, List<Integer>> map) {
+    private void updateVerticalMap(Node root, int dist, TreeMap<Integer, List<Integer>> map) {
         if(root == null)
             return;
         if(!map.containsKey(dist)){
             map.put(dist, new ArrayList<>());
         }
         map.get(dist).add(root.data);
-        updateverticalmap(root.left, dist-1, map);
-        updateverticalmap(root.right, dist+1, map);
+        updateVerticalMap(root.left, dist-1, map);
+        updateVerticalMap(root.right, dist+1, map);
     }
 
-    private void verticalorder(Node root){
+    private void verticalOrder(Node root){
         if(root == null) return;
         TreeMap<Integer, List<Integer>> map = new TreeMap<>();
-        updateverticalmap(root, 0, map);
+        updateVerticalMap(root, 0, map);
 
         for (Collection<Integer> collection: map.values()) {
             System.out.println(collection);
@@ -148,6 +148,10 @@ public class Binary_Tree_Traversals {
         node.right = new Node(3);
         node.left.left = new Node(4);
         node.left.right = new Node(5);
+
+//                1
+//            2       3
+//        4       5
 
         Binary_Tree_Traversals btt = new Binary_Tree_Traversals();
         System.out.println("Pre Order");
@@ -163,8 +167,8 @@ public class Binary_Tree_Traversals {
         System.out.println("Right View");
         btt.rightview(node);
         System.out.println("Spiral Order");
-        btt.spiralorder(node);
+        btt.spiralOrder(node);
         System.out.println("Vertical Order");
-        btt.verticalorder(node);
+        btt.verticalOrder(node);
     }
 }

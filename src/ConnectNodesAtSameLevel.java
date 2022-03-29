@@ -44,7 +44,7 @@ public class ConnectNodesAtSameLevel {
         for(int i = 1; i<= height; i++) {
             constructMap(root, i, map);
         }
-        System.out.println();
+        System.out.println(map);
     }
 
     public static void main(String[] args) {

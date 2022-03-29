@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="da6fc865-eaf6-4cdd-a21e-30f52df1122d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/findandremoveloopLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/findandremoveloopLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AllPossibleSubSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllPossibleSubSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Binary_Tree_Traversals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Binary_Tree_Traversals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConnectNodesAtSameLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConnectNodesAtSameLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diameter_of_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiameterOfTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +45,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/Sedin.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/JumpingFrog.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-11.0.13/Contents/Home/lib/src.zip!/java.base/java/util/HashMap.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-11.0.13/Contents/Home/lib/src.zip!/java.base/java/util/Queue.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Knapsack.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-11.0.13/Contents/Home/lib/src.zip!/java.base/java/util/AbstractMap.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/isSumTree.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/AllPossibleSubSet.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Trie.java" root0="FORCE_HIGHLIGHTING" />
@@ -88,7 +94,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.findAndRemoveLoopInLinkedList">
+  <component name="RunManager" selected="Application.DiameterOfTree">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -100,15 +106,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayRotationFindingAnElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayRotationFindingAnElement" />
+    <configuration name="AllPossibleSubSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AllPossibleSubSet" />
       <module name="LearnJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Floor_in_Sorted_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Floor_in_Sorted_Array" />
+    <configuration name="BinaryTreeTraversals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryTreeTraversals" />
+      <module name="LearnJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Binary_Tree_Traversals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Binary_Tree_Traversals" />
+      <module name="LearnJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiameterOfTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DiameterOfTree" />
       <module name="LearnJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,8 +148,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxDistanceToClosestPerson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaxDistanceToClosestPerson" />
+    <configuration name="LetterCasePermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LetterCasePermutation" />
       <module name="LearnJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,22 +170,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="findAndRemoveLoopInLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="findAndRemoveLoopInLinkedList" />
-      <module name="LearnJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="kth_smallest_row_wise_column_wise" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kth_smallest_row_wise_column_wise" />
-      <module name="LearnJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="smallestpivotinrotatedarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="smallestpivotinrotatedarray" />
       <module name="LearnJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,19 +183,19 @@
       <item itemvalue="Application.StarSearchMain" />
       <item itemvalue="Application.kth_smallest_row_wise_column_wise" />
       <item itemvalue="Application.FooProblem" />
-      <item itemvalue="Application.smallestpivotinrotatedarray" />
-      <item itemvalue="Application.ArrayRotationFindingAnElement" />
-      <item itemvalue="Application.Floor_in_Sorted_Array" />
-      <item itemvalue="Application.MaxDistanceToClosestPerson" />
-      <item itemvalue="Application.findAndRemoveLoopInLinkedList" />
+      <item itemvalue="Application.AllPossibleSubSet" />
+      <item itemvalue="Application.LetterCasePermutation" />
+      <item itemvalue="Application.Binary_Tree_Traversals" />
+      <item itemvalue="Application.BinaryTreeTraversals" />
+      <item itemvalue="Application.DiameterOfTree" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.findAndRemoveLoopInLinkedList" />
-        <item itemvalue="Application.MaxDistanceToClosestPerson" />
-        <item itemvalue="Application.Floor_in_Sorted_Array" />
-        <item itemvalue="Application.ArrayRotationFindingAnElement" />
-        <item itemvalue="Application.smallestpivotinrotatedarray" />
+        <item itemvalue="Application.DiameterOfTree" />
+        <item itemvalue="Application.BinaryTreeTraversals" />
+        <item itemvalue="Application.Binary_Tree_Traversals" />
+        <item itemvalue="Application.LetterCasePermutation" />
+        <item itemvalue="Application.AllPossibleSubSet" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +232,12 @@
       <workItem from="1641304186151" duration="3473000" />
       <workItem from="1641310540840" duration="10693000" />
       <workItem from="1642319454580" duration="4320000" />
-      <workItem from="1643029334619" duration="2662000" />
+      <workItem from="1643029334619" duration="5059000" />
+      <workItem from="1643084933397" duration="611000" />
+      <workItem from="1643549066678" duration="35797000" />
+      <workItem from="1644815454361" duration="1528000" />
+      <workItem from="1644923200332" duration="32584000" />
+      <workItem from="1648459603840" duration="5944000" />
     </task>
     <servers />
   </component>
@@ -243,6 +254,15 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -374,16 +394,6 @@
           <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Insert_node_in_middle_linkedlist.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="103" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Insert_node_in_middle_linkedlist.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="104" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/check_two_expressions_brackets.java</url>
           <line>53</line>
           <option name="timeStamp" value="115" />
@@ -414,16 +424,6 @@
           <option name="timeStamp" value="134" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ConnectNodesAtSameLevel.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="136" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ConnectNodesAtSameLevel.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="137" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Array_rotation_smallest.java</url>
           <line>16</line>
           <option name="timeStamp" value="141" />
@@ -433,8 +433,28 @@
           <line>12</line>
           <option name="timeStamp" value="142" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StockSpanPrices.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TwoSum.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MaxAreaOfIsland.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.Integer" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="args" language="JAVA" />
