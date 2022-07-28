@@ -11,6 +11,7 @@ public class LetterCasePermutation {
 
     public void permute(char[] characters, List<String> result, int j) {
         if (j != characters.length) {
+
             if (Character.isLetter(characters[j])) {
                 characters[j] = Character.toUpperCase(characters[j]);
                 permute(characters, result, j + 1);

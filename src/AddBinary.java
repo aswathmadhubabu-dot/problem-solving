@@ -5,7 +5,7 @@ public class AddBinary {
         int n2 = b.length();
 
         StringBuilder padding = new StringBuilder();
-
+        padding.reverse();
         String paddedA;
         String paddedB;
 

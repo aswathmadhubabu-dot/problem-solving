@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da6fc865-eaf6-4cdd-a21e-30f52df1122d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ktfmt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ancestors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AllPossibleSubSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllPossibleSubSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Binary_Tree_Traversals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Binary_Tree_Traversals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConnectNodesAtSameLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConnectNodesAtSameLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Diameter_of_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiameterOfTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddBinary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTreeTraversals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeTraversals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeQual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeQual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LetterCasePermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LetterCasePermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NextGreaterElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NextGreaterElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrintAncestors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReverseStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReverseStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TopViewofBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopViewofBT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arraytobst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arraytobst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/isBtaBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/isBtaBST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +28,6 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/LearnJava$Java.ic" NAME="Java Coverage Results" MODIFIED="1563118772773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="LearnJava" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,15 +50,15 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/Sedin.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/JumpingFrog.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-11.0.13/Contents/Home/lib/src.zip!/java.base/java/util/HashMap.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-11.0.13/Contents/Home/lib/src.zip!/java.base/java/util/Queue.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Knapsack.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-11.0.13/Contents/Home/lib/src.zip!/java.base/java/util/AbstractMap.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/isSumTree.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/AllPossibleSubSet.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/JumpingFrog.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Knapsack.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Sedin.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Trie.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/isSumTree.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -62,27 +69,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="NEW_TOOLWINDOW_STRIPE_DEFAULTS" value="true" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583607837340" />
-    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="TEXT" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/aswathm/Documents/personal/problem-solving&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
@@ -94,7 +87,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DiameterOfTree">
+  <component name="RunManager" selected="Application.MMT">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -106,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AllPossibleSubSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AllPossibleSubSet" />
+    <configuration name="ArraysSolve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysSolve" />
       <module name="LearnJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,20 +108,6 @@
     </configuration>
     <configuration name="BinaryTreeTraversals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinaryTreeTraversals" />
-      <module name="LearnJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Binary_Tree_Traversals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Binary_Tree_Traversals" />
-      <module name="LearnJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DiameterOfTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DiameterOfTree" />
       <module name="LearnJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,8 +127,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LetterCasePermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LetterCasePermutation" />
+    <configuration name="MMT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MMT" />
       <module name="LearnJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,6 +149,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TopKFrequentWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TopKFrequentWords" />
+      <module name="LearnJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="arraytobst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arraytobst" />
+      <module name="LearnJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="kth_smallest_row_wise_column_wise" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kth_smallest_row_wise_column_wise" />
       <module name="LearnJava" />
@@ -183,19 +176,19 @@
       <item itemvalue="Application.StarSearchMain" />
       <item itemvalue="Application.kth_smallest_row_wise_column_wise" />
       <item itemvalue="Application.FooProblem" />
-      <item itemvalue="Application.AllPossibleSubSet" />
-      <item itemvalue="Application.LetterCasePermutation" />
-      <item itemvalue="Application.Binary_Tree_Traversals" />
+      <item itemvalue="Application.ArraysSolve" />
       <item itemvalue="Application.BinaryTreeTraversals" />
-      <item itemvalue="Application.DiameterOfTree" />
+      <item itemvalue="Application.MMT" />
+      <item itemvalue="Application.TopKFrequentWords" />
+      <item itemvalue="Application.arraytobst" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DiameterOfTree" />
+        <item itemvalue="Application.MMT" />
         <item itemvalue="Application.BinaryTreeTraversals" />
-        <item itemvalue="Application.Binary_Tree_Traversals" />
-        <item itemvalue="Application.LetterCasePermutation" />
-        <item itemvalue="Application.AllPossibleSubSet" />
+        <item itemvalue="Application.ArraysSolve" />
+        <item itemvalue="Application.TopKFrequentWords" />
+        <item itemvalue="Application.arraytobst" />
       </list>
     </recent_temporary>
   </component>
@@ -238,6 +231,8 @@
       <workItem from="1644815454361" duration="1528000" />
       <workItem from="1644923200332" duration="32584000" />
       <workItem from="1648459603840" duration="5944000" />
+      <workItem from="1655711821975" duration="35257000" />
+      <workItem from="1656395274631" duration="54839000" />
     </task>
     <servers />
   </component>
@@ -263,7 +258,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -315,7 +309,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodeQual.java</url>
-          <line>8</line>
+          <line>13</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -447,6 +441,46 @@
           <url>file://$PROJECT_DIR$/src/MaxAreaOfIsland.java</url>
           <line>14</line>
           <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ReverseStack.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ReverseStack.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ReverseStack.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ReverseStack.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arraytobst.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TopKFrequentWords.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TopKFrequentWords.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinaryTreeTraversals.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="200" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

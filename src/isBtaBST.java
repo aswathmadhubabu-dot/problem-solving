@@ -1,5 +1,5 @@
 public class isBtaBST {
-    private int data;
+    private final long data;
     isBtaBST left;
     isBtaBST right;
 
@@ -8,14 +8,14 @@ public class isBtaBST {
         this.left = this.right = null;
     }
 
-    private static boolean isbinarysearchtree(isBtaBST root, int min, int max) {
-        if (root == null)
+    private static boolean isBST(isBtaBST root, Long min, Long max) {
+        if(root == null)
             return true;
 
-        if (root.data > max || root.data < min)
+        if(root.data >= max || root.data <= min)
             return false;
 
-        return isbinarysearchtree(root.left, min, root.data - 1) && isbinarysearchtree(root.right, root.data + 1, max);
+        return isBST(root.left, min, root.data) && isBST(root.right, root.data, max);
     }
 
     public static void main(String[] args) {
@@ -24,6 +24,6 @@ public class isBtaBST {
         isBtaBST g = new isBtaBST(3);
         d.left = f;
         d.right = g;
-        System.out.println(isbinarysearchtree(d, Integer.MIN_VALUE, Integer.MAX_VALUE));
+        System.out.println(isBST(d, Long.MIN_VALUE, Long.MAX_VALUE));
     }
 }

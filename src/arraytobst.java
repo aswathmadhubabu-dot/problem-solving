@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
@@ -37,11 +38,22 @@ public class arraytobst {
         Node node = constructBinaryTree(arr, 0, arr.length - 1);
         printInorder(node);
 
-        PriorityQueue<Integer> pq = new PriorityQueue<Integer>(
-                new Comparator<Integer>() {
-                    public int compare(Integer a, Integer b) {
-                        return a - b;
-                    }
-                });
+        PriorityQueue<String> priorityQueue = new PriorityQueue<>(
+                (o1, o2) -> {
+                    char o1c = o1.charAt(0);
+                    char o2c = o2.charAt(0);
+
+                    return o1c - o2c;
+                }
+        );
+
+        priorityQueue.add("tree");
+        priorityQueue.add("map");
+        priorityQueue.add("abc");
+        priorityQueue.add("elephant");
+
+        Arrays.asList(priorityQueue.toArray());
+
+        System.out.println(priorityQueue.peek());
     }
 }
